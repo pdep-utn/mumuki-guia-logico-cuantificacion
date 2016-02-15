@@ -1,0 +1,3 @@
+¡Que bueno que viniste! Justo estabamos hablando con nuestro amigo Sigmund Prolog sobre un tema que le encanta: la negación. 
+
+Acostate en el diván así te seguimos contando... 

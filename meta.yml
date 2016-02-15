@@ -1,0 +1,9 @@
+---
+name: Negación y cuantificación
+locale: es
+type: learning
+beta: false
+language: prolog
+id_format: '%05d'
+order:
+- 1

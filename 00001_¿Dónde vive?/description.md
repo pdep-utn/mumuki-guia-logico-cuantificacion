@@ -5,4 +5,6 @@ Como vamos a llevar a varias personas en tu auto (ah, ¿no te contamos? ¡Somos 
 * Rodrigo vive en Villa Ballester
 * Tomás vive en Villa Urquiza
 
-> Escribí el predicado `viveEn`
+> Escribí el predicado `viveEn/2`. 
+>
+> Y para pensar: ¿se trata de una propiedad o de una relación?

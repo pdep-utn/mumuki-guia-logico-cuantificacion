@@ -19,6 +19,6 @@ llegaFacil(Persona, Destino) :-
 > * `llegaFacil(batman, exactas)` (debería, porque siempre llega fácil)
 > * `llegaFacil(victoria, exactas)` (no debería, porque no tiene auto ni vive en Núñez)
 > * `llegaFacil(fede, exactas)` (debería, porque tiene auto)
-> * `llegaFacil(tomas, exactas)` (debería... ¡pensá por qué!)
+> * `llegaFacil(mariano, exactas)` (debería, porque vive en Núñez)
 
 

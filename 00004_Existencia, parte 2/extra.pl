@@ -2,7 +2,8 @@ tieneAuto(tomas).
 tieneAuto(fede).
 
 viveEn(victoria, versalles).
-viveEn(mariano, flores).
+viveEn(mariano, avellaneda).
+viveEn(fede, avellaneda).
 viveEn(tomas, nuniez).
 
 quedaEn(exactas, nuniez).

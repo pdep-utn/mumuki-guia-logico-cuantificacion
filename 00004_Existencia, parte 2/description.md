@@ -1,1 +1,1 @@
-todo
+Ah, pero dijimos que ibamos a usar autos para llegar a algunos lugares. Sabemos que 

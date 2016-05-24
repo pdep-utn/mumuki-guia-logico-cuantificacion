@@ -10,7 +10,7 @@ llegaFacil(Persona, Destino) :-
   quedaEn(Destino, Zona).
 ```
 
-> ¡Probalo vos mismo en la consola!
+> ¡Probalo en la consola!
 
 
 

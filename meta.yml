@@ -3,12 +3,13 @@ name: Negación y cuantificación
 locale: es
 type: learning
 beta: false
-teacher_info: ''
+teacher_info: "La intención de esta guía es introducir `forall` y `not` sin caer aún
+  en consultas existenciales. \n\nY además, profundizar las ideas de individuos, valores,
+  inferencia y reducción. "
 language: prolog
 id_format: '%05d'
 order:
 - 1
-- 2
 - 3
 - 4
 - 16

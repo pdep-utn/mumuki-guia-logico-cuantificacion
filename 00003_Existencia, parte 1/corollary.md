@@ -7,4 +7,4 @@ yes
 
 Tenemos un pequeño problema acá, porque nosotros nunca dijimos que `valhala` sea un destino válido al que se pueda llegar con auto (el que Valhala es un lugar mitológico :P). 
 
-¿Podremos resolver este problema?
+Por ahora, te lo dejamos para pensar. Hablaremos más de ésto en próximas lecciones. 

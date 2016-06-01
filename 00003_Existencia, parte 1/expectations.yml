@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: llegaFacil
+  inspection: HasUsage:tieneAuto
+- binding: tieneAuto
+  inspection: HasBinding

@@ -9,7 +9,6 @@ Momento, momento, dijimos que alguien llega fácil si  tiene auto, o si vive en 
 > quedaEn(montoto, boedo).
 > ```
 > 
->  Si ahora consultamos `destinosProximos(montoto, river)`, ¿cuál será la respuesta? ¿`yes` o `no`?
-> 
+>  Si ahora consultamos `destinosProximos(montoto, river)`, ¿cuál será la respuesta? ¿`yes` o `no`? ¡Probalo vos mismo!
 
 

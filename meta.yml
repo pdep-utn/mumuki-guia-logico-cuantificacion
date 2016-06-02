@@ -4,8 +4,7 @@ locale: es
 type: learning
 beta: false
 teacher_info: "La intención de esta guía es introducir `forall` y `not` sin caer aún
-  en consultas existenciales. \n\nY además, profundizar las ideas de individuos, valores,
-  inferencia y reducción. "
+  en consultas existenciales. \n"
 language: prolog
 id_format: '%05d'
 order:

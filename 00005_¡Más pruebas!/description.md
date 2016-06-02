@@ -6,7 +6,7 @@ Momento, momento, dijimos que alguien llega fácil si  tiene auto, o si vive en 
 > ```prolog
 > quedaEn(montoto, palermo).
 > quedaEn(montoto, nuniez).
-> quedaEn(montoto, boedo).
+> quedaEn(montoto, avellaneda).
 > ```
 > 
 >  Si ahora consultamos `destinosProximos(montoto, river)`, ¿cuál será la respuesta? ¿`yes` o `no`? ¡Probalo vos mismo!

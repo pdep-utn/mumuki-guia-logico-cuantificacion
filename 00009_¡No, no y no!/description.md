@@ -1,4 +1,4 @@
-Ahora vimos que en prolog es fácil preguntar si _existe_ una forma de probar algo. Por ejemplo, si queremos saber si Tomás tiene auto, podemos consultar así:
+Ya estamos convencidos de que en Prolog es fácil preguntar si _existe_ una forma de probar algo, ¿no?. Por ejemplo, si queremos saber si Tomás tiene auto, podemos consultar así:
 
 ```prolog
 ? tieneAuto(tomas).

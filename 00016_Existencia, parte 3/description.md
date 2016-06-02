@@ -15,5 +15,5 @@ Peeero, resulta que Prolog, que es un tipo muy inteligente para estas cosas, y s
 
 Y entonces, sin siquiera dudarlo, Prolog nos dice `yes` :thumbsup:
 
-> Veamos si queda claro: escribí un predicado `destinosProximos/2`, que nos dice si dlaos destinos están en la misma zona. 
+> Veamos si queda claro: escribí un predicado `destinosProximos/2`, que nos dice si dos destinos están en la misma zona. 
 

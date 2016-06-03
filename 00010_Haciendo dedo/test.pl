@@ -1,11 +1,11 @@
-test('no puedeLlevar(mariano, fede)'):-
-  \+ puedeLlevar(mariano, fede).
+test('no loLleva(mariano, fede)'):-
+  \+ loLleva(mariano, fede).
   
-test('no puedeLlevar(fede, fede)'):-
-  \+ puedeLlevar(fede, fede).
+test('no loLleva(fede, fede)'):-
+  \+ loLleva(fede, fede).
   
-test('puedeLlevar(fede, mariano)'):-
-  puedeLlevar(fede, mariano).
+test('loLleva(fede, mariano)'):-
+  loLleva(fede, mariano).
   
-test('no puedeLlevar(fede, victoria)'):-
-  \+ puedeLlevar(fede, victoria).
+test('no loLleva(fede, victoria)'):-
+  \+ loLleva(fede, victoria).

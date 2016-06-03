@@ -1,8 +1,8 @@
 ---
 expectations:
-- binding: puedeLLevar
+- binding: loLleva
   inspection: HasUsage:not
-- binding: puedeLLevar
+- binding: loLleva
   inspection: HasUsage:tieneAuto
-- binding: puedeLLevar
+- binding: loLleva
   inspection: HasUsage:sonVecino

@@ -1,0 +1,1 @@
+¿Verdad que intuitivamente se entiende mucho mejor? Estamos diciendo: _alguien está bien ubicado, cuando vive en una zona y todos los destinos a los que quiere ir están en ella_.

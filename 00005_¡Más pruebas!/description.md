@@ -9,10 +9,12 @@ Momento, momento, dijimos que alguien llega fácil si  tiene auto, o si vive en 
 > quedaEn(montoto, avellaneda).
 > ```
 > 
->  Si ahora consultamos `destinosProximos(montoto, river)`, ¿cuál será la respuesta? ¿`yes` o `no`? ¿Y si consultamos `llegaFacil(tomas, racing)`? 
+>  Si ahora consultamos `destinosProximos(montoto, river)`, ¿cuál será la respuesta? ¿`yes` o `no`?
+> 
+>¿Y si consultamos `llegaFacil(tomas, racing)`? 
 > 
 > ¡Probalo vos mismo!
-> 
+ 
 
 
 

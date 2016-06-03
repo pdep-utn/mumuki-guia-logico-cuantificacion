@@ -27,6 +27,3 @@ destinosProximos(X, Y) :-
    quedaEn(X, Z),
    quedaEn(Y, Z),
    X \= Y.
-   
-
-  

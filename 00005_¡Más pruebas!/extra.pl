@@ -20,4 +20,12 @@ llegaFacil(Persona, Destino) :-
   viveEn(Persona, Zona),
   quedaEn(Destino, Zona).
   
+destinosProximos(X, Y) :-
+   quedaEn(X, Z),
+   quedaEn(Y, Z),
+   X \= Y.
+   
+quedaEn(montoto, palermo).
+quedaEn(montoto, nuniez).
+quedaEn(montoto, avellaneda).
   

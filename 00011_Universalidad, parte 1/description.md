@@ -3,8 +3,9 @@ Ahora queremos saber si alguien está bien ubicado: esto ocurre cuando vive en u
 ```prolog
 quiereIr(fede, racing).
 quiereIr(fede, montoto).
+quiereIr(victoria, montoto).
 ```
 
 ¿Pero cómo podemos hacer para saber si todos los lugares a donde quiere ir están en su zona? ¿Se te ocure alguna forma de resolverlo, usando sólo lo que vimos hasta ahora?
 
-> Escribí el predicado `bienUbicado/2`
+> Escribí el predicado `bienUbicado/1`. Asumí que ya escribimos `quiereIr/2` por vos. 

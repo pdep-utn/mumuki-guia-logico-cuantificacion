@@ -32,6 +32,10 @@ sonVecinos(UnaPersona, OtraPersona) :-
     viveEn(UnaPersona, Zona), 
     viveEn(OtraPersona, Zona).
     
+dificilDeEstacionarV1(Zona) :-
+    viveEn(_, Zona),
+    forall(viveEn(Habitante, Zona), tieneAuto(Habitante)).
+    
 dificilDeEstacionarV2(Zona) :-
-    viveEn(Zona, Habitante),
+    viveEn(Habitante, Zona),
     forall(viveEn(Habitante, Zona), tieneAuto(Habitante)).

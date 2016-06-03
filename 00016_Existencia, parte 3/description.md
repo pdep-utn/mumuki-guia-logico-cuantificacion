@@ -2,7 +2,7 @@ Interesante lo que acaba de suceder, ¿no? Cuando hacemos una consulta como `lle
 
 ```prolog
 llegaFacil(Persona, Destino) :-
-  viveEn(Persona, Zona), //na es una variable que salió "de la nada" :o 
+  viveEn(Persona, Zona), %% Zona es una variable que salió "de la nada" :o 
   quedaEn(Destino, Zona).
 ```
 A diferencia de `Persona`, a la que cuando la consultamos le dimos el valor `mariano`, nunca dijimos cual iba a ser el valor de `Zona` antes de usarla po primera vez. `Zona` es entonces una **variable libre**: la usamos sin haberla _instanciado_ previamente. 

@@ -36,3 +36,7 @@ loLleva(UnaPersona, OtraPersona) :-
     tieneAuto(UnaPersona),
     not(tieneAuto(OtraPersona)), 
     sonVecinos(UnaPersona, OtraPersona).
+    
+quiereIr(fede, racing).
+quiereIr(fede, montoto).
+quiereIr(victoria, montoto).

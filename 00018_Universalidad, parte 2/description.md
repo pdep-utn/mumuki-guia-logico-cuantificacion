@@ -3,7 +3,7 @@ Está bien, está bien, te vamos a contar una mejor forma de resolver el mismo p
 Este se utiliza así:
 
 ```prolog
-estaBienUbicado(Persona) :-
+bienUbicado(Persona) :-
    viveEn(Persona, Zona), 
    forall(quiereIr(Persona, Destino), quedaEn(Destino, Zona)).
 ```

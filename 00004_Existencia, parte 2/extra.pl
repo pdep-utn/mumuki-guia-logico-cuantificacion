@@ -13,6 +13,9 @@ quedaEn(racing, avellaneda).
 tieneAuto(tomas).
 tieneAuto(fede). 
 
-llegaFacil(Conductor, _) :-
-   tieneAuto(Conductor).
 llegaFacil(batman, _).
+llegaFacil(Persona, _) :-
+ tieneAuto(Persona).
+llegaFacil(Persona, Destino) :-
+  viveEn(Persona, Zona),
+  quedaEn(Destino, Zona).

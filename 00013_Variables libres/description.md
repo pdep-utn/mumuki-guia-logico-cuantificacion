@@ -20,11 +20,16 @@ Sin embargo, ¿Cómo se dio cuenta Prolog de la variable que cuantificamos exist
 ∀ Persona : quiereIr(Persona, Destino) => quedaEn(Destino, Zona)
 ```
 
-La clave acá está en _las variables libres_:
+La clave acá está en _las variables libres_, por lo que tenemos que mirar toda la cláusula:
 
 ```prolog
 estaBienUbicado(Persona) :-
-  viveEn(Persona, Zona), 
-  forall(quiereIr(Persona, Destino), quedaEn(Destino, Zona)).
+  viveEn(Persona, Zona),    
+  forall(quiereIr(Persona, Destino), quedaEn(Destino, Zona)). % Destino es una variable libre: no viene como
+                                                              % argumento ni es instanciada por ninguna condición anterior
 ```
+
+Dentro de un `forall`, lo que **cuantificamos universalmente** son las variables libres. 
+
+> Veamos si se entiende
 

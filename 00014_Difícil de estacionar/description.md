@@ -1,4 +1,4 @@
-Veamos si se entiende: 
+Practiquemos esta idea un poco mas.
 
 > Escribí un predicado `dificilDeEstacionar/1`, que es verdadero para una zona **habitada** si todos sus habitantes tienen auto. 
 > 

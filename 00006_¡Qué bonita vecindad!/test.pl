@@ -1,5 +1,5 @@
 test('sonVecinos(mariano, fede)') :-
-  sonVecinos(mariano, fedea).
+  sonVecinos(mariano, fede).
   
 test('sonVecinos(fede, mariano)') :-
   sonVecinos(fede, mariano).

@@ -31,8 +31,3 @@ sonVecinos(UnaPersona, OtraPersona) :-
     UnaPersona \= OtraPersona,
     viveEn(UnaPersona, Zona), 
     viveEn(OtraPersona, Zona).
-    
-loLLeva(UnaPersona, OtraPersona) :-
-    tieneAuto(UnaPersona),
-    not(tieneAuto(OtraPersona)), 
-    sonVecinos(UnaPersona, OtraPersona).

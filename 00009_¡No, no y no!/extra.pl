@@ -23,11 +23,11 @@ llegaFacil(Persona, Destino) :-
   viveEn(Persona, Zona),
   quedaEn(Destino, Zona).
   
-destinosProximos(X, Y) :-
-   quedaEn(X, Z),
-   quedaEn(Y, Z).
+destinosProximos(Destino, OtroDestino) :-
+   quedaEn(Destino, Zona),
+   quedaEn(OtroDestino, Zona).
    
-sonVecinos(X, Y) :-
-    X \= Y,
-    viveEn(X, Z), 
-    viveEn(Y, Z).
+sonVecinos(UnaPersona, OtraPersona) :-
+    UnaPersona \= OtraPersona,
+    viveEn(UnaPersona, Zona), 
+    viveEn(OtraPersona, Zona).

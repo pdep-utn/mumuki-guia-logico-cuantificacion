@@ -25,5 +25,5 @@ llegaFacil(Persona, Destino) :-
   
 destinosProximos(X, Y) :-
    quedaEn(X, Z),
-   quedaEn(Y, Z),
-   X \= Y.
+   quedaEn(Y, Z).
+  

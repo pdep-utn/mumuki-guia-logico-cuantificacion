@@ -7,7 +7,7 @@ yes
 no
 ```
 
-Pero ¿cómo hacemos para decir lo contrario? ¿Cómo hacemos para preguntar si NO existen pruebas de que tomás tenga auto? Adiviná, existe un predicado `not/1`, que _niega consultas_. 
+Pero ¿cómo hacemos para decir lo contrario? ¿Cómo hacemos para preguntar si NO existen pruebas de que Tomás tenga auto? Adiviná, existe un predicado `not/1`, que _niega consultas_. 
 
 > Descubrilo vos mismo; probá las siguientes consultas: 
 > 

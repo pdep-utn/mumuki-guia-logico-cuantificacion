@@ -5,7 +5,7 @@ Es cierto que si llamábamos a esta variable de otra forma, no hubiera habido pr
 
 ```prolog
 zonaHabitada(Zona) :-
-  viveEn(Zona, _).
+  viveEn(_, Zona).
 
 dificilDeEstacionarV3(Zona) :-
     zonaHabitada(Zona),

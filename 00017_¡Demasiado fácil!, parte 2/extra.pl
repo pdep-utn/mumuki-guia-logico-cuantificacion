@@ -33,7 +33,7 @@ sonVecinos(UnaPersona, OtraPersona) :-
     viveEn(OtraPersona, Zona).
     
 zonaHabitada(Zona) :-
-  viveEn(Zona, _).
+  viveEn(_, Zona).
 
 dificilDeEstacionarV3(Zona) :-
     zonaHabitada(Zona),

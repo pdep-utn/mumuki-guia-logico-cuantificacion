@@ -9,7 +9,7 @@ A diferencia de `Persona`, a la que cuando la consultamos le dimos el valor `fed
 
 Peeero, resulta que Prolog, es un tipo muy inteligente para estas cosas, y se da cuenta de que **existe** una `Zona` (`nuniez`) en la que al mismo tiempo vive `fede` y en la que queda `exactas`: 
 
-```prolog
+```
 ∃ Zona : viveEn(fede, Zona) ∧ quedaEn(exactas, Zona)
 ```
 

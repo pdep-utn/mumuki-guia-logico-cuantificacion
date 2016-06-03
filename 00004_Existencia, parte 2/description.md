@@ -1,4 +1,4 @@
-Bueno, para ser justos, también podés llegar fácilmente si vivís en la misma zona del destino (caminar hace bien :running:)). 
+Bueno, para ser justos, también podés llegar fácilmente si vivís en la misma zona del destino (caminar hace bien :running:). 
 
 Es decir, alguien llega fácil a un destino, _si vive en la misma zona en la que queda este destino_. ¿Se podrá decir expresar esto en Prolog? 
 

@@ -9,6 +9,9 @@ quedaEn(utn, villaLugano).
 quedaEn(exactas, nuniez).
 quedaEn(river, nuniez).
 quedaEn(racing, avellaneda). 
+quedaEn(montoto, palermo).
+quedaEn(montoto, nuniez).
+quedaEn(montoto, avellaneda).
 
 tieneAuto(tomas).
 tieneAuto(fede). 
@@ -25,7 +28,5 @@ destinosProximos(X, Y) :-
    quedaEn(Y, Z),
    X \= Y.
    
-quedaEn(montoto, palermo).
-quedaEn(montoto, nuniez).
-quedaEn(montoto, avellaneda).
+
   

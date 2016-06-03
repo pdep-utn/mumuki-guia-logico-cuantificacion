@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: destinoAccesible
+  inspection: HasBinding
+- binding: destinoAccesible
+  inspection: HasForall

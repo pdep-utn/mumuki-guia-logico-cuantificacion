@@ -8,6 +8,6 @@ dificilDeEstacionar(Zona) :-
     forall(viveEn(Habitante, Zona), tieneAuto(Habitante)).
 ```
 
-Mediante la condición `viveEn(Zona, _)` nos aseguramos de que haya al menos un habitante (sin importarnos quién). 
+Mediante la condición `viveEn(_, Zona)` nos aseguramos de que haya al menos un habitante (sin importarnos quién). 
 
 Ah, ¿lo hiciste de otra forma? Acompañanos, vamos a ver a continuación distintas maneras de encarar este problema. 

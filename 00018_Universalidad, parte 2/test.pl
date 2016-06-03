@@ -1,8 +1,8 @@
-test('bienUbicado(fede)') :
+test('bienUbicado(fede)') :-
   bienUbicado(fede).
   
-test('no bienUbicado(victoria)') :
+test('no bienUbicado(victoria)') :-
   bienUbicado(victoria).
   
-test('bienUbicado(rodrigo)') :
+test('bienUbicado(rodrigo)') :-
   bienUbicado(rodrigo).

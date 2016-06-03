@@ -5,4 +5,4 @@ expectations:
 - binding: loLleva
   inspection: HasUsage:tieneAuto
 - binding: loLleva
-  inspection: HasUsage:sonVecino
+  inspection: HasUsage:sonVecinos

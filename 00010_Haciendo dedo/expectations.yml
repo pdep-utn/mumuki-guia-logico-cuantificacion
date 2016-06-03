@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: puedeLLevar
+  inspection: HasUsage:not
+- binding: puedeLLevar
+  inspection: HasUsage:tieneAuto
+- binding: puedeLLevar
+  inspection: HasUsage:sonVecino

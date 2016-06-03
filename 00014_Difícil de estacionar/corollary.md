@@ -4,7 +4,7 @@ Y la forma más simple de pensar esto es la siguiente:
 
 ```prolog
 dificilDeEstacionar(Zona) :-
-    viveEn(_. Zona),
+    viveEn(_, Zona),
     forall(viveEn(Habitante, Zona), tieneAuto(Habitante)).
 ```
 

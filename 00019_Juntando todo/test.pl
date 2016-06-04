@@ -3,10 +3,10 @@ test('zonaDesierta(villaLugano)'):-
   
   
 test('no zonaDesierta(avellaneda)'):-
-  zonaDesierta(avellaneda).
+  not(zonaDesierta(avellaneda)).
   
 test('no zonaDesierta(versalles)'):-
-  zonaDesierta(versalles).
+  not(zonaDesierta(versalles)).
   
 test('no zonaDesierta(palermo)'):-
-  zonaDesierta(palermo).
+  not(zonaDesierta(palermo)).

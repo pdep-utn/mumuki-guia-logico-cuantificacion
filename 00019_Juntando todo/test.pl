@@ -7,3 +7,6 @@ test('no zonaDesierta(avellaneda)'):-
   
 test('no zonaDesierta(versalles)'):-
   zonaDesierta(versalles).
+  
+test('no zonaDesierta(palermo)'):-
+  zonaDesierta(palermo).

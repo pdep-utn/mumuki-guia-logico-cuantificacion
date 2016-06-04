@@ -13,30 +13,6 @@ quedaEn(montoto, palermo).
 quedaEn(montoto, nuniez).
 quedaEn(montoto, avellaneda).
 
-tieneAuto(tomas).
-tieneAuto(fede). 
-
-llegaFacil(batman, _).
-llegaFacil(Persona, _) :-
- tieneAuto(Persona).
-llegaFacil(Persona, Destino) :-
-  viveEn(Persona, Zona),
-  quedaEn(Destino, Zona).
-
-destinosProximos(Destino, OtroDestino) :-
-   quedaEn(Destino, Zona),
-   quedaEn(OtroDestino, Zona).
-
-sonVecinos(UnaPersona, OtraPersona) :-
-    UnaPersona \= OtraPersona,
-    viveEn(UnaPersona, Zona), 
-    viveEn(OtraPersona, Zona).
-
-loLleva(UnaPersona, OtraPersona) :-
-    tieneAuto(UnaPersona),
-    not(tieneAuto(OtraPersona)), 
-    sonVecinos(UnaPersona, OtraPersona).
-
 quiereIr(tomas, racing).
 quiereIr(fede, racing).
 quiereIr(fede, montoto).

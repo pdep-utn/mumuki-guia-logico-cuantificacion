@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: zonaDesierta
+  inspection: HasBinding
+- binding: zonaDesierta
+  inspection: HasForall
+- binding: zonaDesierta
+  inspection: HasNot

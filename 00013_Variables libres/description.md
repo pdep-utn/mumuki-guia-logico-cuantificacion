@@ -31,5 +31,5 @@ estaBienUbicado(Persona) :-
 
 Dentro de un `forall`, lo que **cuantificamos universalmente** son las variables libres. 
 
-> Veamos si se entiende: escribí un predicado `destinoAccesible/1` que nos diga si le queda cerca a todas las personas que quieran ir a éste. 
+> Veamos si se entiende: escribí un predicado `destinoAccesible/1` que nos diga si llegan fácil todas las personas que quieran ir a éste. Recordá que existe el predicado llegaFacil/2 que relaciona una persona y un destino.
 

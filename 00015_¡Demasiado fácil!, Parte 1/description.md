@@ -14,4 +14,4 @@ dificilDeEstacionarV2(Zona) :-
     forall(viveEn(Habitante, Zona), tieneAuto(Habitante)).
 ```
 
-> Probá en la consola los predicados `dificilDeEstacionarV1` y `dificilDeEstacionarV2`
+> Probá en la consola los predicados `dificilDeEstacionarV1` y `dificilDeEstacionarV2` con las zonas de avellaneda, nuniez y versalles a ver qué pasa.

@@ -17,3 +17,6 @@ quiereIr(tomas, racing).
 quiereIr(fede, racing).
 quiereIr(fede, montoto).
 quiereIr(victoria, montoto).
+
+zonaHabitada(Zona) :-
+  viveEn(_, Zona).

@@ -12,7 +12,7 @@ dificilDeEstacionarV3(Zona) :-
     forall(viveEn(Habitante, Zona), tieneAuto(Habitante)).
 ```
 
-Ahora, aún si accidentalmente no utilizamos la variable anónima en `zonaHabitada`, no nos afectará al correcto funcionamiento de esta solución, porque sus variables libres no interferirán con las de `dificilDeEstacionar`. Y en el camino, hicimos que `dificilDeEstacionar` sea aún más facil de entender. 
+Ahora, aun si accidentalmente no utilizamos la variable anónima en `zonaHabitada`, no nos afectará al correcto funcionamiento de esta solución, porque sus variables libres no interferirán con las de `dificilDeEstacionar`. Y en el camino, hicimos que `dificilDeEstacionar` sea aún más facil de entender. 
 
 La moraleja es: cuanto más fácil de leer y entender una solución, ¡mejor!
 

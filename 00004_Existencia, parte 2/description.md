@@ -12,7 +12,7 @@ llegaFacil(Persona, Destino) :-
   quedaEn(Destino, Zona).
 ```
 
-> ¿Ves algo extraño en la última cláusula de `llegaFacil`? ¿Funcionará este predicado? ¡Descrubrilo! 
+> ¿Ves algo extraño en la última cláusula de `llegaFacil`? ¿Funcionará este predicado? ¡Descubrilo! 
 > 
 > Probá en la consola las siguientes consultas: 
 > 

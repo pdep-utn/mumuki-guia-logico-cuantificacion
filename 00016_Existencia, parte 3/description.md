@@ -6,7 +6,7 @@ llegaFacil(Persona, Destino) :-
   quedaEn(Destino, Zona).
 ```
 
-A diferencia de `Persona`, a la que cuando la consultamos le dimos el valor `fede`, nunca dijimos cual iba a ser el valor de `Zona` antes de usarla po primera vez. `Zona` es entonces una **variable libre**: la usamos sin haberla _instanciado_ previamente. 
+A diferencia de `Persona`, a la que cuando la consultamos le dimos el valor `fede`, nunca dijimos cual iba a ser el valor de `Zona` antes de usarla por primera vez. `Zona` es entonces una **variable libre**: la usamos sin haberla _instanciado_ previamente. 
 
 Peeero, resulta que Prolog, es un tipo muy inteligente para estas cosas, y se da cuenta de que **existe** una `Zona` (`nuniez`) en la que al mismo tiempo vive `fede` y en la que queda `exactas`: 
 

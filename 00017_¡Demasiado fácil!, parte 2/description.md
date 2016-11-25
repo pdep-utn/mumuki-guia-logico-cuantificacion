@@ -1,6 +1,6 @@
 ¡Ups! No, no lo sería porque también habíamos usado la variable `Habitante` en el `forall`, y para que tuviera sentido, tenía que ser una _variable libre_. Y ya no lo es, porque `viveEn` le dio un valor. 
 
-Es cierto que si llamábamos a esta variable de otra forma, no hubiera habido problema, pero, vamos, ¡es fácil confundirse! ¿Cual es la mejor forma de evitar estas situaciones? Fácil: ¡delegando! 
+Es cierto que si llamábamos a esta variable de otra forma, no hubiera habido problema, pero, vamos, ¡es fácil confundirse! ¿Cuál es la mejor forma de evitar estas situaciones? Fácil: ¡delegando! 
 
 
 ```prolog

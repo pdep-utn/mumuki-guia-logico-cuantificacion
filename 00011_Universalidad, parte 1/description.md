@@ -4,6 +4,8 @@ Ahora queremos saber si alguien está bien ubicado: esto ocurre cuando vive en u
 quiereIr(fede, racing).
 quiereIr(fede, montoto).
 quiereIr(victoria, montoto).
+quiereIr(tomas, montoto).
+quiereIr(tomas, utn).
 ```
 
 ¿Pero cómo podemos hacer para saber si todos los lugares a donde quiere ir están en su zona? ¿Se te ocure alguna forma de resolverlo, usando sólo lo que vimos hasta ahora?

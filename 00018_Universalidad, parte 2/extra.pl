@@ -41,3 +41,5 @@ loLleva(UnaPersona, OtraPersona) :-
 quiereIr(fede, racing).
 quiereIr(fede, montoto).
 quiereIr(victoria, montoto).
+quiereIr(tomas, montoto).
+quiereIr(tomas, utn).

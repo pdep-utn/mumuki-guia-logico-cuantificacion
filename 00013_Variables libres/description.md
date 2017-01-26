@@ -14,7 +14,7 @@ Si expresamos este predicado en términos lógicos, nos queda:
 
 Lo cual se lee como _para todo destino, si la persona quiere ir a él, le queda cerca_,  que no es más que la formalización de lo que veníamos diciendo. 
 
-Sin embargo, ¿Cómo se dio cuenta Prolog de la variable que cuantificamos existencialmente es `Destino`? Es decir, ¿por qué no interpretó, por ejemplo, _para toda persona, si el destino es de interés para la persona, le queda cerca_?:
+Sin embargo, ¿Cómo se dio cuenta Prolog de la variable que cuantificamos universalmente es `Destino`? Es decir, ¿por qué no interpretó, por ejemplo, _para toda persona, si el destino es de interés para la persona, le queda cerca_?:
 
 ```
 ∀ Persona : quiereIr(Persona, Destino) => quedaEn(Destino, Zona)

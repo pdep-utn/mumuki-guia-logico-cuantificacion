@@ -6,7 +6,7 @@ beta: false
 teacher_info: "La intención de esta guía es introducir `forall` y `not` sin caer aún
   en consultas existenciales. \n"
 language: prolog
-id_format: '%05d'
+id_format: "%05d"
 order:
 - 1
 - 3

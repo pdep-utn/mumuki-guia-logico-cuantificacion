@@ -1,1 +1,1 @@
-Ojo que pide que sean personas **distintos**. Podés asegurarte de que lo sean usando el predicado infijo `\=/2`.
+Ojo que pide que sean personas **distintas**. Podés asegurarte de que lo sean usando el predicado infijo `\=/2` que dados dos individuos se cumple si son diferentes.

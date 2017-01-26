@@ -1,0 +1,6 @@
+---
+expectations:
+- inspection: HasForall
+  binding: dificilDeEstacionar
+- binding: dificilDeEstacionar
+  inspection: HasBinding

@@ -1,4 +1,4 @@
 ---
 expectations:
 - binding: bienUbicado
-  inspection: HasUsage:not
+  inspection: UsesNot

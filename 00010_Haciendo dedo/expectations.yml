@@ -1,7 +1,7 @@
 ---
 expectations:
 - binding: loLleva
-  inspection: HasUsage:not
+  inspection: UsesNot
 - binding: loLleva
   inspection: HasUsage:tieneAuto
 - binding: loLleva
